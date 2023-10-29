@@ -11,8 +11,8 @@ function App(props) {
       마이너스?:{myCounter.isNegative}
       <br />
       <br />
-      <button>+</button>
-      <button>-</button>
+      <button onClick={() => myCounter.increase()}>+</button>
+      <button onClick={() => myCounter.decrease()}>-</button>
     </div>
   );
 }
