@@ -11,4 +11,12 @@ export default class counterStore {
       decrease: action,
     });
   }
+
+  get isNegative() {
+    return this.count < 0 ? "yes" : "no";
+  }
+
+  increase() {
+    this.count += 1;
+  }
 }
