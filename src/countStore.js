@@ -19,4 +19,8 @@ export default class counterStore {
   increase() {
     this.count += 1;
   }
+
+  decrease() {
+    this.count -= 1;
+  }
 }
