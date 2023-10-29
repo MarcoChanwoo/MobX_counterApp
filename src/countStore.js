@@ -12,6 +12,7 @@ export default class counterStore {
     });
   }
 
+  // count 값이 0보다 작으면 no로 표시함
   get isNegative() {
     return this.count < 0 ? "yes" : "no";
   }
